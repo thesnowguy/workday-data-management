@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_dskg_workday_dat_workday_request</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>U3193980@swarovski.com</sys_created_by>
+        <sys_created_on>2022-05-19 06:44:30</sys_created_on>
+        <sys_id>d2fbc83187230510fa01350a0cbb3580</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dskg_workday_dat_workday_request</sys_name>
+        <sys_package display_value="Workday Data Management" source="x_dskg_workday_dat">673bc8fd87efc110fa01350a0cbb356a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
+        <sys_update_name>ua_table_licensing_config_d2fbc83187230510fa01350a0cbb3580</sys_update_name>
+        <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
+        <sys_updated_on>2022-05-19 06:44:30</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

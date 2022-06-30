@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="with_whom_data_would_be_shared_internal_function_e_g_controlling_external_servic" label="With whom data would be shared? ((internal function e.g controlling, external se" language="en" table="x_dskg_workday_dat_workday_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>with_whom_data_would_be_shared_internal_function_e_g_controlling_external_servic</element>
+            <help/>
+            <hint/>
+            <label>With whom data would be shared? ((internal function e.g controlling, external se</label>
+            <language>en</language>
+            <name>x_dskg_workday_dat_workday_request</name>
+            <plural>With whom data would be shared? ((internal function e.g controlling, external se</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>U3193980@swarovski.com</sys_created_by>
+            <sys_created_on>2022-05-21 11:23:34</sys_created_on>
+            <sys_id>7d0f131e1b678510095242a0f54bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>With whom data would be shared? ((internal function e.g controlling, external service provider, any external parties, governmental organizations etc.)</sys_name>
+            <sys_package display_value="Workday Data Management" source="x_dskg_workday_dat">673bc8fd87efc110fa01350a0cbb356a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
+            <sys_update_name>sys_documentation_x_dskg_workday_dat_workday_request_with_whom_data_would_be_shared_internal_function_e_g_controlling_external_service_provider_any_external_parties_governmental_organizations_etc_en</sys_update_name>
+            <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
+            <sys_updated_on>2022-05-21 11:23:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

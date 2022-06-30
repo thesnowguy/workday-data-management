@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_dskg_workday_dat_workday_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_dskg_workday_dat_workday_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>U3193980@swarovski.com</sys_created_by>
+            <sys_created_on>2022-05-21 12:27:43</sys_created_on>
+            <sys_id>51bd63161be78510095242a0f54bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Workday Data Management" source="x_dskg_workday_dat">673bc8fd87efc110fa01350a0cbb356a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
+            <sys_update_name>sys_choice_x_dskg_workday_dat_workday_request_state</sys_update_name>
+            <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
+            <sys_updated_on>2022-05-21 12:27:43</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_dskg_workday_dat_workday_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>U3193980@swarovski.com</sys_created_by>
+            <sys_created_on>2022-05-21 12:51:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bf2f79a1be78510095242a0f54bcb3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
+            <sys_updated_on>2022-05-21 12:51:00</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work In Progress</label>
+            <language>en</language>
+            <name>x_dskg_workday_dat_workday_request</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>U3193980@swarovski.com</sys_created_by>
+            <sys_created_on>2022-05-21 12:51:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a13739a1be78510095242a0f54bcbe2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
+            <sys_updated_on>2022-05-21 12:51:16</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Review Requested</label>
+            <language>en</language>
+            <name>x_dskg_workday_dat_workday_request</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>U3193980@swarovski.com</sys_created_by>
+            <sys_created_on>2022-05-21 13:02:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df75735e1be78510095242a0f54bcb1b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
+            <sys_updated_on>2022-05-21 13:28:36</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Confirmation</label>
+            <language>en</language>
+            <name>x_dskg_workday_dat_workday_request</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>U3193980@swarovski.com</sys_created_by>
+            <sys_created_on>2022-05-21 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e33b39a1be78510095242a0f54bcb15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
+            <sys_updated_on>2022-05-21 12:51:48</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Information Requested</label>
+            <language>en</language>
+            <name>x_dskg_workday_dat_workday_request</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>U3193980@swarovski.com</sys_created_by>
+            <sys_created_on>2022-05-21 12:52:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8353fb9a1be78510095242a0f54bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
+            <sys_updated_on>2022-05-21 12:52:24</sys_updated_on>
+            <value>-5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_dskg_workday_dat_workday_request</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>U3193980@swarovski.com</sys_created_by>
+            <sys_created_on>2022-05-21 12:52:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2437b9a1be78510095242a0f54bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
+            <sys_updated_on>2022-05-21 12:52:05</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

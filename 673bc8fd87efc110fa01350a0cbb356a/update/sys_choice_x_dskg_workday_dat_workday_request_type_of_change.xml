@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type_of_change" table="x_dskg_workday_dat_workday_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_change</element>
+            <name>x_dskg_workday_dat_workday_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>U3193980@swarovski.com</sys_created_by>
+            <sys_created_on>2022-05-23 11:42:25</sys_created_on>
+            <sys_id>e986318f1ba34910095242a0f54bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type_of_change</sys_name>
+            <sys_package display_value="Workday Data Management" source="x_dskg_workday_dat">673bc8fd87efc110fa01350a0cbb356a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
+            <sys_update_name>sys_choice_x_dskg_workday_dat_workday_request_type_of_change</sys_update_name>
+            <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
+            <sys_updated_on>2022-05-23 11:42:25</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_change</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Design Change</label>
+            <language>en</language>
+            <name>x_dskg_workday_dat_workday_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>U3193980@swarovski.com</sys_created_by>
+            <sys_created_on>2022-05-23 11:42:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9166bd8f1ba34910095242a0f54bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
+            <sys_updated_on>2022-05-23 11:42:25</sys_updated_on>
+            <value>design_chage</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

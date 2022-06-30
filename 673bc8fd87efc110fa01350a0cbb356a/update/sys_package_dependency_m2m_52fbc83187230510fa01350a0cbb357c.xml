@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">847f7e46db30230021508a3a489619cf</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>U3193980@swarovski.com</sys_created_by>
+        <sys_created_on>2022-05-19 06:44:30</sys_created_on>
+        <sys_id>52fbc83187230510fa01350a0cbb357c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Workday Data Management" source="x_dskg_workday_dat">673bc8fd87efc110fa01350a0cbb356a</sys_package>
+        <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
+        <sys_updated_on>2022-05-19 06:44:30</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

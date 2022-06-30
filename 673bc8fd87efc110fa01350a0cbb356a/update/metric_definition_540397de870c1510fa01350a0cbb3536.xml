@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="metric_definition">
+    <metric_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <field>substate</field>
+        <name>Change Request SubState Transition</name>
+        <number>MTRC0010008</number>
+        <order>100</order>
+        <script/>
+        <sys_class_name>metric_definition</sys_class_name>
+        <sys_created_by>U3193980@swarovski.com</sys_created_by>
+        <sys_created_on>2022-06-15 07:02:27</sys_created_on>
+        <sys_id>540397de870c1510fa01350a0cbb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change Request SubState Transition</sys_name>
+        <sys_package display_value="Workday Data Management" source="x_dskg_workday_dat">673bc8fd87efc110fa01350a0cbb356a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
+        <sys_update_name>metric_definition_540397de870c1510fa01350a0cbb3536</sys_update_name>
+        <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
+        <sys_updated_on>2022-06-15 07:02:27</sys_updated_on>
+        <table>x_dskg_workday_dat_workday_request</table>
+        <timeline>false</timeline>
+        <type>field_value_duration</type>
+    </metric_definition>
+</record_update>
