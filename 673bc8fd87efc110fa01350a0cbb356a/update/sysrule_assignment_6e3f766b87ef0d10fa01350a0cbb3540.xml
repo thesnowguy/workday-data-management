@@ -3,7 +3,7 @@
         <active>true</active>
         <condition/>
         <description/>
-        <group display_value="WD Key Users" name="WD Key Users">884ba5311bc1b4909102a71ee54bcb7a</group>
+        <group display_value="">884ba5311bc1b4909102a71ee54bcb7a</group>
         <match_conditions>ALL</match_conditions>
         <name>Assignment to Change Assessor Group</name>
         <order>100</order>

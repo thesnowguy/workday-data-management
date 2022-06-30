@@ -67,7 +67,7 @@
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-21 12:53:24</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="SWA Generic Footer">7ed0481f3b0b2200c869c2c703efc487</template>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

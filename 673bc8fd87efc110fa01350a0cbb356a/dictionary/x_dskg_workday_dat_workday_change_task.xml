@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Workday Change Task" max_length="40" name="x_dskg_workday_dat_workday_change_task" type="collection"/>
+</database>

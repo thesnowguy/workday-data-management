@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch2-03-31-2022_04-12-2022_1531.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -26,16 +27,17 @@
         <sys_created_by>U3193980@swarovski.com</sys_created_by>
         <sys_created_on>2022-05-21 13:06:06</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>a776bf1e1be78510095242a0f54bcb5b</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>SWA Request Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Workday Data Management" source="x_dskg_workday_dat">673bc8fd87efc110fa01350a0cbb356a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
         <sys_update_name>sys_hub_flow_a776bf1e1be78510095242a0f54bcb5b</sys_update_name>
-        <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
-        <sys_updated_on>2022-05-23 12:19:25</sys_updated_on>
+        <sys_updated_by>ashish</sys_updated_by>
+        <sys_updated_on>2022-06-30 07:57:45</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a776bf1e1be78510095242a0f54bcb5b"/>
@@ -57,14 +59,11 @@
         <sys_created_by>U3193980@swarovski.com</sys_created_by>
         <sys_created_on>2022-05-23 12:19:24</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>43fe750f1be34910095242a0f54bcb4f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-23 12:19:24</sys_updated_on>
         <table>x_dskg_workday_dat_workday_request</table>
@@ -101,16 +100,11 @@
         <flow display_value="SWA Request Approval">a776bf1e1be78510095242a0f54bcb5b</flow>
         <name>Updated</name>
         <remote_sys_id/>
-        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
         <sys_created_by>U3193980@swarovski.com</sys_created_by>
         <sys_created_on>2022-05-21 13:08:08</sys_created_on>
         <sys_id>edf67b9e1be78510095242a0f54bcbe2</sys_id>
         <sys_mod_count>36</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-23 12:19:24</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
@@ -167,16 +161,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>a776bf1e1be78510095242a0f54bcb5b</id>
         <name>Request Review</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>U3193980@swarovski.com</sys_created_by>
         <sys_created_on>2022-05-21 13:06:06</sys_created_on>
         <sys_id>2b76bf1e1be78510095242a0f54bcb5d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-21 13:06:06</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -434,6 +423,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="SWA Request Approval">a776bf1e1be78510095242a0f54bcb5b</flow>
         <order>3</order>
@@ -443,11 +433,7 @@
         <sys_created_on>2022-05-21 13:39:18</sys_created_on>
         <sys_id>421e335a1b2b8510095242a0f54bcb8c</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2022-05-24 09:12:54</sys_updated_on>
         <ui_id>ed1bfc1d-d5f1-4c1d-8730-7e198b6c14eb</ui_id>
@@ -526,6 +512,7 @@
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="SWA Request Approval">a776bf1e1be78510095242a0f54bcb5b</flow>
         <order>1</order>
@@ -535,11 +522,7 @@
         <sys_created_on>2022-05-21 13:08:08</sys_created_on>
         <sys_id>65f67b9e1be78510095242a0f54bcbeb</sys_id>
         <sys_mod_count>92</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2022-05-24 09:12:54</sys_updated_on>
         <ui_id>ae6e1159-0fb9-4864-952d-dc6ae60c6e52</ui_id>
@@ -682,6 +665,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="SWA Request Approval">a776bf1e1be78510095242a0f54bcb5b</flow>
         <order>5</order>
@@ -691,11 +675,7 @@
         <sys_created_on>2022-05-21 13:56:37</sys_created_on>
         <sys_id>670200ae1b2b8510095242a0f54bcb49</sys_id>
         <sys_mod_count>46</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2022-05-24 09:12:54</sys_updated_on>
         <ui_id>85943531-b838-4d22-8ec3-7c2f01bcc238</ui_id>
@@ -793,11 +773,7 @@
         <sys_created_on>2022-05-21 13:39:18</sys_created_on>
         <sys_id>861e335a1b2b8510095242a0f54bcb83</sys_id>
         <sys_mod_count>28</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-23 12:19:24</sys_updated_on>
         <ui_id>f428056e-4e5f-4c59-8cb8-7cea8a3648aa</ui_id>
@@ -842,11 +818,7 @@
         <sys_created_on>2022-05-21 13:39:41</sys_created_on>
         <sys_id>ab2e375a1b2b8510095242a0f54bcb70</sys_id>
         <sys_mod_count>25</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-23 12:19:25</sys_updated_on>
         <ui_id>55370659-366f-444c-92b4-ab1a70053e45</ui_id>
@@ -872,11 +844,11 @@
         <sys_created_on>2022-05-21 13:08:08</sys_created_on>
         <sys_id>69f67b9e1be78510095242a0f54bcbd8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Workday Data Management" source="x_dskg_workday_dat">673bc8fd87efc110fa01350a0cbb356a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a776bf1e1be78510095242a0f54bcb5b_current_en</sys_update_name>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-21 13:08:08</sys_updated_on>
         <url/>
@@ -895,11 +867,11 @@
         <sys_created_on>2022-05-21 13:08:08</sys_created_on>
         <sys_id>a1f67b9e1be78510095242a0f54bcbe0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Workday Data Management" source="x_dskg_workday_dat">673bc8fd87efc110fa01350a0cbb356a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a776bf1e1be78510095242a0f54bcb5b_table_name_en</sys_update_name>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-21 13:08:08</sys_updated_on>
         <url/>
@@ -918,11 +890,11 @@
         <sys_created_on>2022-05-21 13:08:08</sys_created_on>
         <sys_id>e9f67b9e1be78510095242a0f54bcbdc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Workday Data Management" source="x_dskg_workday_dat">673bc8fd87efc110fa01350a0cbb356a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a776bf1e1be78510095242a0f54bcb5b_changed_fields_en</sys_update_name>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-21 13:08:08</sys_updated_on>
         <url/>
@@ -937,18 +909,14 @@
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"de777bde1be78510095242a0f54bcbdb","name":"plan","plan_signature":null}}</plan>
         <plan_id>a776bf1e1be78510095242a0f54bcb5b</plan_id>
         <snapshot>bced1e9b87abc910fa01350a0cbb354e</snapshot>
-        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>U3193980@swarovski.com</sys_created_by>
         <sys_created_on>2022-05-21 13:10:22</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>de777bde1be78510095242a0f54bcbdb</sys_id>
         <sys_mod_count>12</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-23 12:19:24</sys_updated_on>
         <trigger display_value="">43fe750f1be34910095242a0f54bcb4f</trigger>
@@ -980,6 +948,7 @@
         <sys_created_by>U3193980@swarovski.com</sys_created_by>
         <sys_created_on>2022-05-21 13:10:20</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>f1777bde1be78510095242a0f54bcb6c</sys_id>
         <sys_mod_count>12</sys_mod_count>
         <sys_name/>
@@ -1001,16 +970,11 @@
         <flow display_value="SWA Request Approval">f1777bde1be78510095242a0f54bcb6c</flow>
         <name>Updated</name>
         <remote_sys_id/>
-        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
         <sys_created_by>U3193980@swarovski.com</sys_created_by>
         <sys_created_on>2022-05-21 13:10:21</sys_created_on>
         <sys_id>8e777bde1be78510095242a0f54bcbc7</sys_id>
         <sys_mod_count>38</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-23 12:19:24</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
@@ -1067,16 +1031,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>f1777bde1be78510095242a0f54bcb6c</id>
         <name>Request Review</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>U3193980@swarovski.com</sys_created_by>
         <sys_created_on>2022-05-21 13:10:20</sys_created_on>
         <sys_id>39777bde1be78510095242a0f54bcb6d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-21 13:10:20</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -1334,6 +1293,7 @@
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="SWA Request Approval">f1777bde1be78510095242a0f54bcb6c</flow>
         <order>1</order>
@@ -1343,11 +1303,7 @@
         <sys_created_on>2022-05-21 13:10:21</sys_created_on>
         <sys_id>4a777bde1be78510095242a0f54bcbc4</sys_id>
         <sys_mod_count>50</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-23 12:19:23</sys_updated_on>
         <ui_id>ae6e1159-0fb9-4864-952d-dc6ae60c6e52</ui_id>
@@ -1490,6 +1446,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="SWA Request Approval">f1777bde1be78510095242a0f54bcb6c</flow>
         <order>3</order>
@@ -1499,11 +1456,7 @@
         <sys_created_on>2022-05-21 13:39:28</sys_created_on>
         <sys_id>a42eb35a1b2b8510095242a0f54bcb35</sys_id>
         <sys_mod_count>40</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-23 12:19:23</sys_updated_on>
         <ui_id>ed1bfc1d-d5f1-4c1d-8730-7e198b6c14eb</ui_id>
@@ -1582,6 +1535,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="SWA Request Approval">f1777bde1be78510095242a0f54bcb6c</flow>
         <order>5</order>
@@ -1591,11 +1545,7 @@
         <sys_created_on>2022-05-21 13:57:30</sys_created_on>
         <sys_id>e442c4ae1b2b8510095242a0f54bcb70</sys_id>
         <sys_mod_count>28</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-23 12:19:23</sys_updated_on>
         <ui_id>85943531-b838-4d22-8ec3-7c2f01bcc238</ui_id>
@@ -1692,11 +1642,7 @@
         <sys_created_on>2022-05-21 13:39:49</sys_created_on>
         <sys_id>693eb75a1b2b8510095242a0f54bcb18</sys_id>
         <sys_mod_count>19</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-23 12:19:23</sys_updated_on>
         <ui_id>55370659-366f-444c-92b4-ab1a70053e45</ui_id>
@@ -1729,11 +1675,7 @@
         <sys_created_on>2022-05-21 13:39:28</sys_created_on>
         <sys_id>ac2eb35a1b2b8510095242a0f54bcb37</sys_id>
         <sys_mod_count>21</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-23 12:19:23</sys_updated_on>
         <ui_id>f428056e-4e5f-4c59-8cb8-7cea8a3648aa</ui_id>
@@ -1772,11 +1714,11 @@
         <sys_created_on>2022-05-21 13:10:21</sys_created_on>
         <sys_id>31777bde1be78510095242a0f54bcbaf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Workday Data Management" source="x_dskg_workday_dat">673bc8fd87efc110fa01350a0cbb356a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f1777bde1be78510095242a0f54bcb6c_changed_fields_en</sys_update_name>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-21 13:10:21</sys_updated_on>
         <url/>
@@ -1795,11 +1737,11 @@
         <sys_created_on>2022-05-21 13:10:21</sys_created_on>
         <sys_id>71777bde1be78510095242a0f54bcbb7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Workday Data Management" source="x_dskg_workday_dat">673bc8fd87efc110fa01350a0cbb356a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f1777bde1be78510095242a0f54bcb6c_table_name_en</sys_update_name>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-21 13:10:21</sys_updated_on>
         <url/>
@@ -1818,11 +1760,11 @@
         <sys_created_on>2022-05-21 13:10:21</sys_created_on>
         <sys_id>f9777bde1be78510095242a0f54bcba6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Workday Data Management" source="x_dskg_workday_dat">673bc8fd87efc110fa01350a0cbb356a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f1777bde1be78510095242a0f54bcb6c_current_en</sys_update_name>
         <sys_updated_by>U3193980@swarovski.com</sys_updated_by>
         <sys_updated_on>2022-05-21 13:10:21</sys_updated_on>
         <url/>
@@ -1831,9 +1773,8 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f1777bde1be78510095242a0f54bcb6c"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f1777bde1be78510095242a0f54bcb6c"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f1777bde1be78510095242a0f54bcb6c"/>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>a776bf1e1be78510095242a0f54bcb5b</sys_id>
         <latest_snapshot>f1777bde1be78510095242a0f54bcb6c</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch2-03-31-2022_04-12-2022_1531.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Workday Change Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Workday Change Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">e56db0c76d2220100acb70b3534330b7</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>ashish</sys_created_by>
+        <sys_created_on>2022-06-30 07:57:21</sys_created_on>
+        <sys_id>726f685b07d0d910bc67ff808c1ed047</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workday Change Task</sys_name>
+        <sys_package display_value="Employee Profile" source="sn_employee">1e95bac2738f001001b566b90ff6a7cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workday Data Management">673bc8fd87efc110fa01350a0cbb356a</sys_scope>
+        <sys_update_name>sys_wizard_answer_726f685b07d0d910bc67ff808c1ed047</sys_update_name>
+        <sys_updated_by>ashish</sys_updated_by>
+        <sys_updated_on>2022-06-30 07:57:21</sys_updated_on>
+        <table/>
+        <target_url>x_dskg_workday_dat_workday_change_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

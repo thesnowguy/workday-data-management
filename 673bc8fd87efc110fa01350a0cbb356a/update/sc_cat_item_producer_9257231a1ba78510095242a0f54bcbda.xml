@@ -2,6 +2,7 @@
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
         <active>true</active>
+        <additional_review>false</additional_review>
         <allow_edit>false</allow_edit>
         <availability>on_desktop</availability>
         <billable>false</billable>
@@ -9,12 +10,13 @@
         <category display_value="HR Systems">32c78de49f331200d9011977677fcf97</category>
         <checked_out/>
         <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
         <custom_cart/>
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p>Raise a Workday Change Request</p>]]></description>
-        <display_price_property>never</display_price_property>
+        <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
@@ -45,7 +47,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Ashish Kumar Sharma">0b8c3e0e1ba8c5d0bbbb43f1b24bcb25</owner>
+        <owner display_value="">0b8c3e0e1ba8c5d0bbbb43f1b24bcb25</owner>
         <picture/>
         <post_insert_script/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=9257231a1ba78510095242a0f54bcbda&amp;sysparm_preview=true", "summary");</preview>
@@ -83,7 +85,6 @@
         <template/>
         <template_manager_roles/>
         <type>item</type>
-        <u_kb_category/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <view/>

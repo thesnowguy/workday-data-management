@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Workday Request" max_length="40" name="x_dskg_workday_dat_workday_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="ACCB Review" max_length="40" name="accb_review" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Actual Implementation Date" max_length="40" name="actual_implementation_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval Gate" max_length="40" name="approval_gate" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Attach completed testing documentation here" max_length="40" name="attach_completed_testing_documentation_here" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Change Assessment" max_length="40" name="change_assessment" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Change  Communications Plan + Materials" max_length="40" name="change_communications_plan_materials" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Change Impact Assessment" max_length="40" name="change_impact_assessment" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Cutover Migration Plan" max_length="40" name="cutover_migration_plan" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Assessed" max_length="40" name="date_assessed" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Design/Deployment Approved" max_length="40" name="design_deployment_approved" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Design Documents (Functional/Technical)" max_length="40" name="design_documents_functional_technical" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Estimated date of completion" max_length="40" name="estimated_date_of_completion" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Estimated Effort" max_length="40" name="estimated_effort" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="FFF /ESSA Project Number" max_length="40" name="fff_essa_project_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="GPM" max_length="32" name="gpm" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Impact of not doing the change" max_length="4000" name="impact_of_not_doing_the_change" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Implementation Complete" max_length="40" name="implementation_complete" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="In which tenant(s) will the change be deployed to?" max_length="40" name="in_which_tenant_s_will_the_change_be_deployed_to" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Preferred Implementation Date" max_length="40" name="preferred_implementation_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason for Change/ Benefits/ Business Rationale" max_length="4000" name="reason_for_change_benefits_business_rationale" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Region" max_length="40" name="region" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Release window to implement" max_length="40" name="release_window_to_implement" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requested on behalf of" max_length="32" name="requested_on_behalf_of" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Requirement" max_length="40" name="requirement" type="string"/>
+        <element label="RFC Number" max_length="40" name="rfc_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="RFC Template" max_length="40" name="rfc_template" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="3" label="Severity" max_length="40" name="severity" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Solution Ready" max_length="40" name="solution_ready" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Standard Operating Procedure (SOP)" max_length="40" name="standard_operating_procedure_sop" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" audit="true" choice="1" label="Substate" max_length="40" name="substate" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ACCB Review" value="review"/>
+                <element inactive_on_update="false" label="Close Complete" value="close_complete"/>
+                <element inactive_on_update="false" label="Implementation" value="implementation"/>
+                <element inactive_on_update="false" label="Pending Validation" value="pending_validation"/>
+                <element inactive_on_update="false" label="Released for Dev" value="released_dev"/>
+                <element inactive_on_update="false" label="SignOff Requested" value="sign_off_requested"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Test Plans and Test Results" max_length="40" name="test_plans_test_results" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Test Sign Off" max_length="40" name="test_sign_off" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Training  Learning Support Plan + Materials" max_length="40" name="training_learning_support_plan_materials" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type Of Change" max_length="40" name="type_of_change" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Design Change" value="design_chage"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Update Concept Document" max_length="40" name="update_concept_document" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Update HR/Manager/Employee Guides" max_length="40" name="update_hr_manager_employee_guides" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Validation Complete" max_length="40" name="validation_complete" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Which data categories would be processed in the solution?" max_length="40" name="which_data_categories_would_be_processed_in_the_solution" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Whose data will be processed in the solution?" max_length="40" name="whose_data_will_be_processed_in_the_solution" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="With whom data would be shared? ((internal function e.g controlling, external se" max_length="1000" name="with_whom_data_would_be_shared_internal_function_e_g_controlling_external_servic" type="string"/>
+    </element>
+</database>
